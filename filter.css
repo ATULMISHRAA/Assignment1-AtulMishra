@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    width: 100%;
+    height: 42px;
+    background: red;
+    padding-top:3px ;
+}
+.header-logo{
+    border:1px solid red;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color:red;
+    background:white;
+    margin-left: 20px;
+    float: left;
+}
+.lg a{
+    text-decoration: none;
+    color:white;
+}
+.reg{
+    float:right;
+    border:1px solid wheat;
+    width: 150px;
+    height: 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    color:white;
+    margin-right: 20px;
+    padding: 4px 20px;
+    box-shadow: 2px 3px 5px rgb(128, 128, 128);
+
+}
+.login{
+    float:right;
+    width: 80px;
+    height: 20px;
+    font-size: 20px;
+    margin: 4px 0 0 6px;
+    font-family: cursive;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    margin: 50px 0 0 112px;
+}
+.filter{
+    box-shadow: 5px 5px 5px black;
+    background: white;
+    width:300px;
+    height:  650px;
+    margin-left:118px ;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.head-filter{
+    margin: 17px 0 0 26px;
+    font-size: 18px;
+}
+.select{
+    width: 200px;
+    height: 30px;
+    margin: 15px 0 0 26px;
+    padding: 3px 0 0 5px;
+    font-size: 15px;
+    color: gray;
+}
+.checkbox,.radio{
+    width:18px;
+    height: 18px;
+    margin:10px 0 0 26px ;
+}
+.cuisine-like,.rupees{
+    margin-left: 10px;
+    color: grey;
+}
+.main{
+    display:inline-block;
+    margin-left: 80px;
+}
+.right-box1{
+    box-shadow: 6px 6px 6px black;
+    background: white;
+    width: 700px;
+    height: 270px;
+}
+.right-box2{
+    box-shadow: 5px 5px 5px black;
+    background: white;
+    width: 700px;
+    height: 270px;
+    margin-top: 45px; 
+}
+.img{
+    width: 30%;
+    height: 95%;
+    margin: 5px;
+    display: inline-block;
+}
+.text{
+    width:60%;
+    height: 95%;
+    margin: 10px;
+    margin-left: 25px;
+    vertical-align: top;
+    line-height: 35px;
+    display:inline-block;
+}
+.list-cost{
+    margin: 25px 0 0 15px;
+    line-height: 2rem;
+}
+.pagination{
+    text-align: center;
+    margin: 35px 0px 20px 0;
+}
+.page{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    background: honeydew;
+    text-align: center;
+}
